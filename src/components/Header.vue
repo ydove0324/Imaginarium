@@ -17,18 +17,18 @@ const logo = {
 
 // 右侧更多菜单
 const more_paper = {
-    "ExtDM": {
-        name: "ExtDM - CVPR 2024",
-        link: "https://zzcheng.top/ExtDM/",
-    },
-    "MPOT": {
-        name: "MPOT - ICCV 2023",
-        link: "https://zzcheng.top/MPOT/",
-    },
-    "ControlNet": {
-        name: "ControlNet - ICCV 2023",
-        link: "https://github.com/lllyasviel/ControlNet",
-    }
+    // "ExtDM": {
+    //     name: "ExtDM - CVPR 2024",
+    //     link: "https://zzcheng.top/ExtDM/",
+    // },
+    // "MPOT": {
+    //     name: "MPOT - ICCV 2023",
+    //     link: "https://zzcheng.top/MPOT/",
+    // },
+    // "ControlNet": {
+    //     name: "ControlNet - ICCV 2023",
+    //     link: "https://github.com/lllyasviel/ControlNet",
+    // }
 }
 
 </script>
@@ -44,7 +44,7 @@ const more_paper = {
                 <el-icon :size="20">
                     <HomeFilled />
                 </el-icon>
-                <a :href=home.link>{{ home.name }} </a>
+                <!-- <a :href=home.link>{{ home.name }} </a> -->
             </el-menu-item>
 
             <!-- 项目主页 -->
@@ -52,20 +52,20 @@ const more_paper = {
                 <el-icon :size="20">
                     <SuccessFilled />
                 </el-icon>
-                <a :href=logo.link>{{ logo.name }} </a>
+                <!-- <a :href=logo.link>{{ logo.name }} </a> -->
             </el-menu-item>
 
             <!-- 更多栏目 -->
             <el-sub-menu index="2">
                 <template #title>More</template>
                 <el-menu-item index="2-1">
-                    <a :href=more_paper.ExtDM.link>{{ more_paper.ExtDM.name }}</a>
+                    <!-- <a :href=more_paper.ExtDM.link>{{ more_paper.ExtDM.name }}</a> -->
                 </el-menu-item>
                 <el-menu-item index="2-2">
-                    <a :href=more_paper.MPOT.link>{{ more_paper.MPOT.name }}</a>
+                    <!-- <a :href=more_paper.MPOT.link>{{ more_paper.MPOT.name }}</a> -->
                 </el-menu-item>
                 <el-menu-item index="2-3">
-                    <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a>
+                    <!-- <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a> -->
                 </el-menu-item>
             </el-sub-menu>
 
