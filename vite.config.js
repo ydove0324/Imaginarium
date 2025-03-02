@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base: '/imaginarum',
+  base: '/Imaginarum',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
