@@ -31,7 +31,7 @@
     <el-row justify="center">
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
         <el-container class="video-container">
-          <el-image src="./carousel/comparison.png" fit="contain" />
+          <el-image src="./carousel/comparison.jpg" fit="contain" />
         </el-container>
       </el-col>
     </el-row>
