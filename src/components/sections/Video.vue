@@ -27,7 +27,7 @@
 
         <!-- youtube -->
         <el-container class="video-container">
-          <el-image src="./carousel/teasor.png" fit="contain" />
+          <el-image src="./carousel/teaser_rotation_gif.gif" fit="contain" />
         </el-container>
       </el-col>
     </el-row>
