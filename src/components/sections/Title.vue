@@ -42,13 +42,13 @@ const authors = [
     name: "Xiaoming Zhu",
     // icon: "./icon/junyaohu.jpg",
     // homepage: "https://junyaohu.github.io/",
-    address_flag: "2,#"
+    address_flag: "2,*"
   },
   {
     name: "Xu Huang",
     // icon: "./icon/anya.jpg",
     // homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "1,3,#"
+    address_flag: "1,3,*"
   },
   {
     name: "Qinghongbing Xie",
@@ -60,7 +60,7 @@ const authors = [
     name: "Zhi Deng",
     // icon: "./icon/capoo.webp",
     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    address_flag: "1,†"
   },
   {
     name: "Junsheng Yu",
@@ -88,7 +88,7 @@ const authors = [
   },
   {
     name: "Long ZENG",
-    address_flag: "2"
+    address_flag: "2,†"
   },
 ]
 
@@ -128,7 +128,7 @@ const addresses = [
 
 // 共一和通讯提示
 const con_and_corresponding_author =
-  "#: Equal Contribution. *: Corresponding Author."
+  "*: Equal Contribution. †: Corresponding Author."
 
 // 最新消息
 // const news = "🔥 [2024-12-15] This template project is still under development."
