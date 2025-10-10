@@ -21,7 +21,7 @@ export default {
       // 选择要轮播的照片
       image_paths: [
         "./carousel/teasor.png",
-        "./carousel/pipeline.png",
+        "./carousel/pipeline_v2.png",
         "./carousel/application.png",
         "./carousel/comparison.png",
         // "./carousel/5.jpg",

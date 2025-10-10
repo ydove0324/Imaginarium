@@ -7,7 +7,7 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 const logo = ''
 
 // 标题
-const title = 'Imaginarium: Vision-guided High-Quality Scene Layout Design'
+const title = 'Imaginarium: Vision-guided High-Quality Scene Layout Generation'
 
 // 标题颜色
 const title_color = '#000000'
@@ -22,127 +22,113 @@ const title_supp_color = '#42B883'
 const btn_color = '#444444'
 
 // 作者清单（包含作者姓名、头像、主页、地址序号）
-const authors = [
-  {
-    name: "ANONYMOUS AUTHOR(S)",
-    homepage: "",
-    icon: "",
-    address_flag: "",
-  },
-]
+// const authors = [
+//   {
+//     name: "ANONYMOUS AUTHOR(S)",
+//     homepage: "",
+//     icon: "",
+//     address_flag: "",
+//   },
+// ]
 // const addresses = [
 //   {
 //     name: "ANONYMOUS AUTHOR(S)",
 //     address_flag: "",
 //   },
 // ]
-const con_and_corresponding_author = ""
-// const authors = [
-//   {
-//     name: "Xiaoming Zhu",
-//     // icon: "./icon/junyaohu.jpg",
-//     // homepage: "https://junyaohu.github.io/",
-//     address_flag: "1,2,#"
-//   },
-//   {
-//     name: "Xu Huang",
-//     // icon: "./icon/anya.jpg",
-//     // homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-//     address_flag: "1,3,#"
-//   },
-//   {
-//     name: "Qinghongbing Xie",
-//     // icon: "./icon/capoo.webp",
-//     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-//     address_flag: "2"
-//   },
-//   {
-//     name: "Zhi Deng",
-//     // icon: "./icon/capoo.webp",
-//     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-//     address_flag: "1,*"
-//   },
-//   {
-//     name: "Junsheng Yu",
-//     address_flag: "1,4"
-//   },
-//   {
-//     name: "Yirui Guan",
-//     address_flag: "1"
-//   },
-//   {
-//     name: "Zhongyuan Liu",
-//     address_flag: "1"
-//   },
-//   {
-//     name: "Lin Zhu",
-//     address_flag: "5"
-//   },
-//   {
-//     name: "Zhi Ji",
-//     address_flag: "6"
-//   },
-//   {
-//     name: "Qijun Zhao",
-//     address_flag: "1"
-//   },
-//   {
-//     name: "Yuxuan Xie",
-//     address_flag: "1"
-//   },
-//   {
-//     name: "Town Zhang",
-//     address_flag: "1"
-//   },
-//   {
-//     name: "Long ZENG",
-//     address_flag: "2"
-//   },
-// ]
+// const con_and_corresponding_author = ""
+const authors = [
+  {
+    name: "Xiaoming Zhu",
+    // icon: "./icon/junyaohu.jpg",
+    // homepage: "https://junyaohu.github.io/",
+    address_flag: "2,#"
+  },
+  {
+    name: "Xu Huang",
+    // icon: "./icon/anya.jpg",
+    // homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
+    address_flag: "1,3,#"
+  },
+  {
+    name: "Qinghongbing Xie",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "2"
+  },
+  {
+    name: "Zhi Deng",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "1,*"
+  },
+  {
+    name: "Junsheng Yu",
+    address_flag: "1,4"
+  },
+  {
+    name: "Yirui Guan",
+    address_flag: "1"
+  },
+  {
+    name: "Zhongyuan Liu",
+    address_flag: "1"
+  },
+  {
+    name: "Lin Zhu",
+    address_flag: "5"
+  },
+  {
+    name: "Qijun Zhao",
+    address_flag: "1"
+  },
+  {
+    name: "Ligang Liu",
+    address_flag: "5"
+  },
+  {
+    name: "Long ZENG",
+    address_flag: "2"
+  },
+]
 
 // // 地址清单（包含地址名称、头像、主页、地址序号）
-// const addresses = [
-//   {
-//     address_flag: "1",
-//     name: "Tencent Game AI Research Center",
-//     // icon: "./icon/home.png",
-//     // homepage: "https://github.com/hmuniversity"
-//   },
-//   {
-//     address_flag: "2",
-//     name: "Tsinghua University",
-//     // icon: "./icon/ikun.avif",
-//     // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
-//   },
-//   {
-//     address_flag: "3",
-//     name: "Beijing University of Posts and Telecommunications",
-//     // icon: "./icon/home.png",
-//     // homepage: "https://github.com/hmuniversity"
-//   },
-//   {
-//     address_flag: "4",
-//     name: "Southeast University",
-//     // icon: "./icon/home.png",
-//     // homepage: "https://github.com/hmuniversity"
-//   },
-//   {
-//     address_flag: "5",
-//     name: "Shanghai University",
-//     // icon: "./icon/home.png",
-//     // homepage: "https://github.com/hmuniversity"
-//   },
-//   {
-//     address_flag: "6",
-//     name: "University of Toronto",
-//     // icon: "./icon/home.png",
-//     // homepage: "https://github.com/hmuniversity"
-//   }
-// ]
+const addresses = [
+  {
+    address_flag: "1",
+    name: "Tencent",
+    // icon: "./icon/home.png",
+    // homepage: "https://github.com/hmuniversity"
+  },
+  {
+    address_flag: "2",
+    name: "Tsinghua University",
+    // icon: "./icon/ikun.avif",
+    // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+  },
+  {
+    address_flag: "3",
+    name: "Peking University",
+    // icon: "./icon/home.png",
+    // homepage: "https://github.com/hmuniversity"
+  },
+  {
+    address_flag: "4",
+    name: "Southeast University",
+    // icon: "./icon/home.png",
+    // homepage: "https://github.com/hmuniversity"
+  },
+  {
+    address_flag: "5",
+    name: "University of Science and Technology of China",
+    // icon: "./icon/home.png",
+    // homepage: "https://github.com/hmuniversity"
+  }
+]
 
-// // 共一和通讯提示
-// const con_and_corresponding_author =
-//   "#: Equal Contribution. *: Corresponding Author."
+// 共一和通讯提示
+const con_and_corresponding_author =
+  "#: Equal Contribution. *: Corresponding Author."
 
 // 最新消息
 // const news = "🔥 [2024-12-15] This template project is still under development."
