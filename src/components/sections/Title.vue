@@ -213,6 +213,7 @@ const buttons = [
           <span v-if="title" :style="{ color: title_color }"> {{ title }}</span>
           <span v-if="title_supp" :style="{ color: title_supp_color }"> {{ title_supp }}</span>
         </h1>
+        <div class="conference-title">SIGGRAPH ASIA 2025 & TOG</div>
       </el-col>
     </el-row>
 
@@ -275,8 +276,18 @@ const buttons = [
   font-family: "MyFont", Verdana, sans-serif;
   letter-spacing: 2px;
   font-size: 42px;
-  margin: 32px;
+  margin: 32px 32px 10px;
   text-align: center;
+}
+
+/* 会议标题样式 */
+.conference-title {
+  font-family: "MyFont", Verdana, sans-serif;
+  color: #666666;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 /* 姓名和地址按钮 */
