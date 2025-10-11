@@ -27,7 +27,7 @@
 
         <!-- youtube -->
         <el-container class="video-container">
-          <el-image src="./carousel/teaser_rotation_gif.gif" fit="contain" />
+          <el-image src="./carousel/teaser_rotation_gif.gif" fit="contain" class="centered-gif" />
         </el-container>
       </el-col>
     </el-row>
@@ -55,6 +55,15 @@ iframe,
 video {
   aspect-ratio: 16 / 9;
   width: 100%;
+}
+
+.centered-gif {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .section-title {

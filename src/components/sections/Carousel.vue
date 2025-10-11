@@ -23,7 +23,7 @@ export default {
         "./carousel/teasor.png",
         "./carousel/pipeline_v2.png",
         "./carousel/application.png",
-        "./carousel/comparison.png",
+        "./carousel/comparison_v2.png",
         // "./carousel/5.jpg",
         // "./carousel/6.jpg",
       ],
@@ -55,7 +55,7 @@ export default {
           pauseOnMouseEnter: true,
         }">
         <swiper-slide v-for="path in image_paths">
-          <el-image :src="path" />
+          <el-image :src="path" fit="contain" class="carousel-image" />
         </swiper-slide>
       </swiper>
     </el-col>
@@ -66,5 +66,15 @@ export default {
 /* 设置Swiper风格 */
 .swiper {
   --swiper-theme-color: white;
+}
+
+/* 轮播图图片样式 */
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 </style>

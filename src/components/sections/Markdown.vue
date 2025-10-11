@@ -52,7 +52,7 @@
     <el-row justify="center">
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
         <el-container class="video-container">
-          <el-image src="./carousel/editing_rotation_gif.gif" fit="contain" />
+          <el-image src="./carousel/editing_rotation_gif.gif" fit="contain" class="centered-gif" />
         </el-container>
       </el-col>
     </el-row>
@@ -63,6 +63,15 @@
 <style scoped>
 .video-container {
   margin: 20px 0px 0px 0px;
+}
+
+.centered-gif {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .section-title {
