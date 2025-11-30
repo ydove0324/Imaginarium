@@ -157,7 +157,7 @@ const buttons = [
   {
     disabled: false,
     name: "Code",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "https://github.com/HiHiAllen/Imaginarium",
     component: Files,
   },
   {
