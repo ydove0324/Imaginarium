@@ -144,8 +144,9 @@ const con_and_corresponding_author =
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
+    link: "https://arxiv.org/abs/2510.15564",
     component: Document,
   },
   // {
@@ -154,7 +155,7 @@ const buttons = [
   //   component: Document,
   // },
   {
-    disabled: true,
+    disabled: false,
     name: "Code(Coming Soon)",
     link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
     component: Files,
