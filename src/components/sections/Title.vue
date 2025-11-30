@@ -165,7 +165,7 @@ const buttons = [
     name: "Datasets",
     link: "https://huggingface.co/datasets/HiHiAllen/Imaginarium-Dataset",
     component: Files,
-  }
+  },
   // {
   //   disabled: false,
   //   name: "Demo",
