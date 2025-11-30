@@ -156,10 +156,16 @@ const buttons = [
   // },
   {
     disabled: false,
-    name: "Code(Coming Soon)",
+    name: "Code",
     link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
     component: Files,
   },
+  {
+    disabled: false,
+    name: "Datasets",
+    link: "https://huggingface.co/datasets/HiHiAllen/Imaginarium-Dataset",
+    component: Files,
+  }
   // {
   //   disabled: false,
   //   name: "Demo",
